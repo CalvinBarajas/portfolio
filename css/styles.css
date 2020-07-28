@@ -1992,9 +1992,9 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #ccc; /* was #fff */
   background-clip: padding-box;
-  border: 0.125rem solid #ced4da;
+  border: 0.125rem solid #ccc; /* was #ced4da */
   border-radius: 0.5rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -10211,6 +10211,8 @@ h3 {
   border: none;
   border-radius: 0;
   background: none;
+  background-color: #e4f0fb;
+  border-radius: 7px;
   box-shadow: none !important;
 }
 .floating-label-form-group label {

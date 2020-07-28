@@ -119,18 +119,20 @@
     <div class="col-lg-4 ml-auto">
      <p class="lead">
       After graduating from San Jose State University in marketing, Calvin
-      started working in IT right after college. For the next 20 years in IT and as a coding hobbyist, Calvin developed
+      started working in IT right after college. For the next 20 years in IT and as a coding hobbyist, Calvin
+      developed
       a real passion for writing code.
      </p>
     </div>
     <div class="col-lg-4 mr-auto">
      <p class="lead">
-      Calvin provides the following services: full-stack development, front-end development, DNS management, mentoring,
+      Calvin provides the following services: full-stack development, front-end development, DNS management,
+      mentoring,
       tutoring, robot arm development.
      </p>
     </div>
    </div>
-   
+
    <!-- About Section Button   <div class="text-center mt-4">  <a class="btn btn-xl btn-outline-light" href="http://lightlivingprogram.com/"> <i class="fas fa-download mr-2"></i> Example of Joomla Site Created By Calvin 10 years ago</a> </div> -->
 
   </div>
@@ -150,7 +152,34 @@
    <div class="row">
     <div class="col-lg-8 mx-auto">
      <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-     <form action="mailto:SalsaSabor@Live.com" method="get" enctype="text/plain">
+
+     <form action="https://formspree.io/SalsaSabor@Live.com" method="POST">
+      <div class="control-group">
+       <div class="form-group floating-label-form-group controls mb-0 pb-2">
+        <label>Your Name</label>
+        <input type="text" name="name">
+        <input class="form-control" id="name" name="name" type="text" placeholder="Name" required="required"
+         data-validation-required-message="Please enter your name." />
+        <p class="help-block text-danger"></p>
+       </div>
+      </div>
+      <div class="control-group">
+       <div class="form-group floating-label-form-group controls mb-0 pb-2">
+        <label>Your Email</label>
+        <input type="email" name="_replyto">
+        <input class="form-control" id="email" name="email" type="text" placeholder="Email Address" required="required"
+         data-validation-required-message="Please enter your email address." />
+        <p class="help-block text-danger"></p>
+       </div>
+      </div>
+      <br />
+      <div id="success"></div>
+      <div class="form-group">
+       <button class="btn btn-primary btn-xl" id="sendMessageButton" value="Send" type="submit">Send</button>
+      </div>
+     </form>
+
+     <!-- <form action="mailto:SalsaSabor@Live.com" method="get" enctype="text/plain">
       <div class="control-group">
        <div class="form-group floating-label-form-group controls mb-0 pb-2">
         <label>Name</label>
@@ -171,7 +200,8 @@
       <div id="success"></div>
       <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button>
       </div>
-     </form>
+     </form> -->
+
     </div>
    </div>
   </div>
@@ -229,7 +259,8 @@
       <div class="row justify-content-center">
        <div class="col-lg-8">
         <!-- Portfolio Modal - Title-->
-        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">AlphaBack Mobile
+        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">AlphaBack
+         Mobile
          App</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
@@ -240,9 +271,11 @@
         <!-- Portfolio Modal - Image-->
         <img class="img-fluid rounded mb-5" src="assets/img/portfolio/mobile_full.png" alt="" />
         <!-- Portfolio Modal - Text-->
-        <p class="mb-5">This edutainment mobile app was developed in order to help English speakers learn the alphabet
+        <p class="mb-5">This edutainment mobile app was developed in order to help English speakers learn the
+         alphabet
          backwards in a fun and game-like environment. Learning this skill can help anyone (a) search through a
-         dictionary or long list faster, (b) pass a field sobriety test, and (c) impress friends and family with the
+         dictionary or long list faster, (b) pass a field sobriety test, and (c) impress friends and family
+         with the
          ability to recite the alphanet backwards as fast as you can forwards.</p>
         <button class="btn btn-secondary"><i class="fas fa-link fa-fw"></i><a target="_blank"
           href="https://github.com/CalvinBarajas/AlphaBack">GitHub</a></button>
@@ -267,7 +300,8 @@
       <div class="row justify-content-center">
        <div class="col-lg-8">
         <!-- Portfolio Modal - Title-->
-        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Programmable
+        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">
+         Programmable
          Robot Arm With Vision</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
@@ -278,8 +312,10 @@
         <!-- Portfolio Modal - Image-->
         <img class="img-fluid rounded mb-5" src="assets/img/portfolio/robot_full.png" alt="" />
         <!-- Portfolio Modal - Text-->
-        <p class="mb-5">This was one of the first Raspberry Pi 3B programmable robot arms with vision on YouTube.
-         Calvin's project was particularly unique in that it used the 74LS241 octal tri-state buffer with high-end
+        <p class="mb-5">This was one of the first Raspberry Pi 3B programmable robot arms with vision on
+         YouTube.
+         Calvin's project was particularly unique in that it used the 74LS241 octal tri-state buffer with
+         high-end
          Dynamixel servos and OpenCV library.</p>
         <button class="btn btn-secondary"><i class="fas fa-link fa-fw"></i><a target="_blank"
           href="https://github.com/CalvinBarajas/VisionRobotArm">GitHub</a></button>
@@ -319,9 +355,12 @@
         <!-- Portfolio Modal - Image-->
         <img class="img-fluid rounded mb-5" src="assets/img/portfolio/responsive_website_full.png" alt="" />
         <!-- Portfolio Modal - Text-->
-        <p class="mb-5">Jim Moreno, owner of Northern California Whole House Fans, wanted a responsive website to
-         replace his old site. Calvin decided to go with <strong>Duda.co</strong> because they provided an award-winning
-         CMS and lifetime hosting one-time fee ($300). Since Jim wanted the option to occasionally update the content
+        <p class="mb-5">Jim Moreno, owner of Northern California Whole House Fans, wanted a responsive website
+         to
+         replace his old site. Calvin decided to go with <strong>Duda.co</strong> because they provided an
+         award-winning
+         CMS and lifetime hosting one-time fee ($300). Since Jim wanted the option to occasionally update the
+         content
          himself, this was the perfect option.</p>
         <button class="btn btn-secondary"><i class="fas fa-link fa-fw"></i><a target="_blank"
           href="http://www.wholehousefans.us/">Site</a></button>

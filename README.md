@@ -4,4 +4,4 @@
 
 <h1>You Can Access This Site Using:</h1>
 
-<h1>https://SalonBot.com/</h1>
+<h1>https://calvinbarajas.xyz/</h1>
